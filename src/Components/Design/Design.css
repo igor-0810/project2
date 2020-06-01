@@ -1,0 +1,61 @@
+.main-div-design{width: 80%; margin-left: 50px; position: relative; height: 80vh;
+    overflow-y: auto;}
+.first-row-design{ margin-left: 30px !important; background-color: black; margin: 0;width: 54%; letter-spacing: 10px;
+    position: absolute; z-index: 1;padding-top: 130px;}
+
+.second-row-design{border: 2px solid black;margin: 0 !important; margin-left: 30px !important; margin-top: 130px !important; width: 90%;}
+.title-kiril{ color: white;padding-left: 40px;}
+.title-kiril h2{margin-top: 5px; font-weight: bold; margin: 0;font-size: 25px;letter-spacing: 11px;}
+.title-kiril label{margin-bottom: 0 !important;}
+.title-kiril label h4{margin-bottom: 30px; color: grey;font-weight: normal;letter-spacing: 10px;font-size: 15px;}
+.main-div-design h4{font-weight: bolder; font-size: 13px;color: black; font-weight: bolder;}
+.main-div-design p{font-size: 10px; margin: 0;}
+.design-inner-boxes{margin-bottom: 20px;}
+.first-inner-box{margin-top: 160px; margin-bottom: 50px; width: 60%;}
+.first-inner-box p{font-size: 16px;word-wrap: break-word;line-height: 18px;}
+
+.main-col{margin-left: 25px;}
+
+.onAdd-Des:hover button{display: block;}
+.education-Des .form-year-Des{width: 40%;}
+.education-Des .form-textarea-Des{width: 85%;}
+.form-year-Des{border: none; border-bottom: 1px dashed black; width: 25%; outline: none;}
+.form-inputs-Des{border: none; border-bottom: 1px solid black;outline: none;}
+.form-textarea-Des{border: none; border-bottom: 1px solid black; width: 60%; outline: none;}
+.form-Des-submit, .onAdd-Des button{border: none; background-color: black; color: white;padding: 5px; font-size: 10px; border-radius: 3px;}
+.formWork-div-Des{width: 50%; position: relative;}
+.formWork-div-Des p{word-break: break-all; font-size: 12px;}
+.formWork-div-Des{margin-bottom: 5px;}
+.formWork-div-Des:hover .trash-form-Des, .formWork-div-Des:hover .editIcon{display: block;}
+
+.trash-form-Des{float: right;font-size: 12px;color: black;}
+.formWork-div-Des .editIcon{position: absolute; font-size: 12px; right: 20px; top: 0; color: black;}
+
+
+.contact-inputs-Des{ font-size: 10px; border: none; border-bottom: 1px solid black;outline: none;}
+.design-inner-boxes label{margin-bottom: 0; display: block;}
+.design-inner-boxes p{font-size: 12px;}
+
+.title-Inputs-des::placeholder{color: gray; outline: none;}
+.title-Inputs-des{color: black; outline: none;}
+.title-kiril label h4{margin-top: 10px;}
+
+.skils-div-Des:hover .trash-skils-Des{display: block;}
+.trash-skils-Des{font-size: 10px;}
+
+
+.textarea-description{width: 100%; border: none;outline: none;border-bottom: 1px solid black;}
+.input-skils-Des{border:none; border-bottom: 1px solid black;outline: none;}
+
+
+.maindiv-slika{position: relative;}
+.title-photo-hover-Des{position: absolute; width: 58%; height: 45%;top: 0;}
+.title-contact-hover-Des{position: absolute; width: 50%; height: 20%;top: 139%;}
+.WoEx-hover-div-Des{position: absolute; width: 50%; height: 68%;top: 70%;}
+.skils-hover-div-Des{position: absolute; width: 50%; height: 35%;top: 106%;right: 0;}
+.edu-hover-div-Des{position: absolute; width: 50%; height: 35%;top: 70%; right:0;} 
+
+
+
+
+

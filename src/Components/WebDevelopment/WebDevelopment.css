@@ -1,0 +1,182 @@
+.main-div-component{ margin-left: 4%; height: 80vh; overflow-y: auto; width: 80%;}
+.first-row, .second-row{margin:0 !important;}
+.first-row{margin-bottom: 5px;position: relative; padding-top: 10px;}
+.left-main-box h3{ margin: 0;font-size: 30px;}
+.left-main-box p{ color: #2dbbad;margin: 0;}
+.left-main-box h6{font-size: 13px; margin: 0; margin-top: 15px; word-break: break-all;}
+.left-main-box{margin-bottom: 5px;}
+.inner-box-content1{margin-left: 20px;}
+
+.maindiv-slika img{width: 100%; }
+.elon-img .div-img{width: 100px; height: 100px; border-radius: 50%; border: 1px solid #2dbbad;background-color: #f3f3f3; 
+  position: absolute; right: -20px;top : 0}
+.elon-img img{ width: 100%; height: 100%; border-radius: 50%;}
+.inner-box-content1{width: 70%;}
+/* .inner-box-content, .left-info .work-experience{margin-left: 20px;} */
+/* .left-info .work-experience{margin-bottom: 3px;} */
+.row-line{height: 2px;width: 100%; background-color: #2dbbad; position: absolute; bottom: 0;}
+
+
+
+.left-info span{font-size: 10px; color: #2dbbad; font-style: italic;}
+.span-divs{position: relative;height: 20px;margin-left: 20px;}
+.left-up-spans{position: absolute; top: 0; color: #2dbbad;font-size: 10px; color: #2dbbad; font-style: italic;}
+.left-down-spans{position: absolute;top:13px; color: #2dbbad;font-size: 10px; color: #2dbbad; font-style: italic;}
+.right-spans{position:absolute;top: 0;right: 0; color: #2dbbad;font-size: 10px; color: #2dbbad; font-style: italic;}
+
+.skils-div-add{margin-bottom: 3px;}
+/* .side-box{width:30px; height: 40px; background-color: #374455;} */
+.left-inner-boxes h5{font-size: 14px;margin:0}
+.left-info p{ margin: 0;font-size: 10px;}
+/* .left-info ul{padding: 0;} */
+.left-info-ul{padding: 0; margin-left: 20px;margin-top: 10px;}
+
+/* .left-info ul li{list-style: none; font-size: 10px; position: relative;} */
+.left-info-ul li{list-style: none; font-size: 13px; position: relative; word-break: break-all; line-height: 12px;}
+
+  .left-info-ul li::before {
+    color:#14CCBB; 
+  content:"\25AA"; 
+  font-size:1.5em; 
+  padding-right:.25em; 
+  position:relative;
+    top:.1em;
+    
+  }
+
+
+.left-side{height: 100%;}
+.color-side-box{float: left; width: 23px; height: 35px; background-color: #2dbbad; margin-left: -15px;margin-right: 10px;}
+.black-side-box{float: left; width: 23px; height: 35px; background-color: #374455;margin-left: -15px;}
+
+.label-icons-div{ display: flex; justify-content: flex-end;align-items: center;}
+.label-icons-div:nth-child(4){margin-bottom: 20px;}
+.label-icons label{ width: max-content; font-size: 12px; margin-right: 5px; margin-bottom: 0;}
+.contact-icons-div{width: 20px; text-align: center;}
+
+.right-info h4{font-size: 15px;font-weight: bolder;margin-top: 40px; margin-bottom: 0;cursor: pointer;}
+.right-info p{font-size: 13px; margin: 0;}
+
+.right-info span{font-size: 12px;background-color: #2dbbad; color: white; border-radius: 3px; margin: 3px; padding: 5px;}
+.margin-spans{margin-bottom: 2px;}
+
+.right-info-boxes input::placeholder{color: #2dbbad; font-style: italic;}
+.right-info-boxes .form-textarea::placeholder{color: #2dbbad;font-style: italic;}
+
+.displayBlock{
+  display: block;
+}
+.displayNone{
+  display: none;
+}
+.form-work{height: 10%;}
+.form-title{border:none; border-bottom: 1px solid #374455; width: 100%;margin-bottom: 3px;}
+.form-title::placeholder{color: #2dbbad; font-style: italic;}
+.prof-title{border:none; border-bottom: 1px solid #374455; width: 100%;margin-bottom: 3px;outline: none;}
+.form-year{border: none; border-bottom: 1px dashed #374455;width: 100%;margin-bottom: 3px; width: 60px; margin-right: 10px;}
+.form-city{border: none; border-bottom: 1px dashed #374455; width: 40%;float: left;margin-bottom: 3px}
+.form-achievement{border: none;border-bottom: 1px dashed #374455;width: 40%;float: right;margin-bottom: 3px}
+.form-web-submit{background-color: #2dbbad; color: white; padding: 5px 10px;border: none; border-radius: 2px;font-size: 10px; margin-bottom: 10px;}
+.form-title, .form-year, .span-input-info, .form-city, .form-achievement, .input-skils, .form-textarea:focus{outline: none;}
+.form-textarea{border:none; border-bottom: 1px solid #374455; width: 100%;}
+.form-desc-li{list-style: none; word-wrap: break-word;width: 100%;font-size: 12px;}
+.form-desc-li::before{
+  color:#14CCBB; 
+  content:"\2022";
+  font-size:1.5em; 
+  padding-right:.25em; 
+  position:relative;
+    top:.1em;
+}
+
+
+.skil-span-box{display: flex; flex-wrap: wrap;}
+
+
+/* .achivements-textarea{width: 100%; border: 1px solid #14CCBB; border-radius: 3px;} */
+
+.interest-p{width: 50%;}
+.icon-div-flex{display: flex; flex-wrap: wrap;}
+
+.trash-form{position: absolute; right: 0;top: 0; color: #2dbbad;font-size: 13px;}
+.editIcon{position: absolute;right: 20px; top: 0; color: #2dbbad; font-size: 13px;}
+.inner-box-content{position: relative;}
+.inner-box-content:hover .trash-form, .inner-box-content:hover .editIcon{display: block;}
+
+.label-title{width: 100%; margin-bottom: 0;}
+.span-input-info{border:none; border-bottom: 1px solid #2dbbad; width: 50%;height: 15px;}
+
+
+.onAdd:hover button{display: block;}
+.onAdd button{border: none;background-color: #14CCBB;color: white;padding: 5px; font-size: 10px; border-radius: 3px; margin-bottom: 5px;margin-top: 5px;}
+.onAdd h4{font-size: 15px; margin-top: 40px;margin-bottom: 0;cursor: pointer;}
+.workEduadd{margin-left: 20px;}
+
+.form-work-edu{height: 120px; position: relative;}
+.form-edu-submit{background-color: #2dbbad; color: white; padding: 5px 10px;border: none; border-radius: 2px;position: absolute; bottom: 0; left: 0;}
+
+.form-work input::placeholder{color: #2dbbad;font-style: italic;}
+.form-work textarea::placeholder{color: #2dbbad;font-style: italic;}
+.form-work .present-Label{color: #2dbbad;font-style: italic;}
+
+.skils-div-add{position: relative;}
+.skils-div-add:hover .trash-box{display: block;}
+.trash-box{position: absolute; width: 30px; text-align: center; background-color: #374455;top: -25px;border-radius: 2px;}
+.trash-form-skils{color: white; font-size: 10px; }
+.input-skils{border:none; border-bottom: 1px solid #374455; width: 50%;margin-bottom: 3px;height: 15px;}
+
+.achievements-box{position: relative; margin-bottom: 5px;}
+.achievements-box:hover .trash-achievements{display: block;}
+.trash-achievements{position: absolute;top:1px; font-size: 14px; color:#2dbbad;right: -10px;}
+.achievements-box p{word-break: break-all; font-size: 13px;margin: 0; font-weight: normal;}
+
+.interest-p{position: relative;}
+.interest-p:hover .trash-box-interest{display: block;}
+.trash-box-interest{position: absolute; width: 30px;height: 23px; text-align: center; background-color: #374455;top: -20px;border-radius: 2px;}
+.trash-interest{color: white; font-size: 10px; }
+
+.present-Label{font-weight: normal;margin-left: 20px;}
+.inpCheck[type="checkbox"]{
+    position: relative;  
+  -webkit-appearance: none;
+  outline: none;
+}
+.inpCheck[type="checkbox"]:before{
+  content: "";
+  position: absolute;
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 50%;
+  height: 15px;
+  width: 15px;
+  box-sizing: border-box;
+  top: -12px;
+  margin-left: 10px;
+}
+.inpCheck[type="checkbox"]:after{
+  content: "";
+  position: absolute;
+  display: inline-block;
+  border-radius: 50%;
+  height: 7px;
+  width: 7px;
+  box-sizing: border-box;
+  top: -8px;
+  right: -21px;
+  margin-left: 10px;
+}
+.inpCheck:checked[type="checkbox"]:after{
+  background-color: #2dbbad;
+  
+}
+
+/* div na hover */
+.maindiv-slika{position: relative;}
+.title-bg-hover{height: 28%;width: 40%; position: absolute;top:0;}
+.title-photo-hover{height: 28% ;width: 20%; position: absolute;top:0; left: 41%;}
+.title-contact-hover{height: 28%;width: 38%; position: absolute;top:0; right: 0;}
+.WoEx-hover-div{height: 143%;width: 56%; position: absolute;top:30%;}
+.skils-hover-div{height: 35%; width: 43%; position: absolute;top: 30%; right: 0;}
+.achievement-hover-div{height: 65%;width: 43%; position: absolute;top:67%; right: 0;}
+
+

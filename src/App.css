@@ -1,38 +1,78 @@
-.App {
-  text-align: center;
+*{
+    font-family: circular;
 }
+.bg-violet{background-color: #6630d8;}
+.violet-color{color: #6630d8;}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+.background-ultimateCV{height: 100vh; background-image: url('./Photos/background.svg');background-size: contain;
+    background-position: center;position: relative;}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+.footer{position: absolute;bottom: 0; left: 50%; transform: translateX(-50%);}
+.footer a{font-weight: bold; text-decoration: none;font-size: 13px;}
+.footer a:hover{text-decoration: none; color: grey;}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+/*Choose- Category*/
+.choose-category{height: 100vh;position: relative;}
 
-.App-link {
-  color: #61dafb;
-}
+.choose-category h1{margin: 0;}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+.choose-category-footer{position: absolute; bottom: 0; display: flex; width: 100%; height: 10%;}
+
+.category-footer1{flex: 1; background-color: #ede63e; position: relative;}
+.category-footer2{background-color: #6630d8;flex: 1;position: relative;}
+.footer1-box, .footer2-box{width: 80%;position: absolute;right: 0;top: 50%;transform: translateY(-50%);display: flex; justify-content: space-around;
+    align-items: center;}
+.footer1-box a, .footer2-box a{text-decoration: none; text-transform: uppercase; font-weight: bold; font-size: 13px;
+ color: white; background-color: #071923; padding: 10px 60px; float: right; margin-right: 15px; border-radius: 3px;}
+.footer1-box a:hover, .footer2-box a:hover{text-decoration: none;color: #6530d8;}
+
+.footer1-box span, .footer2-box span{font-size: 15px; color: white;}
+
+.box-title{padding-top: 115px;}
+.choose-category h1{margin-left: 200px;font-weight: bold;}
+.category-boxes{height: 50vh;display: flex;justify-content: center;align-items: center;}
+.category-card{height: 240px;box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);width: 250px;margin: 20px;position: relative;
+    background-color: white; border-radius: 3px;}
+.category-card h3{width: 100%;text-align: center;position: absolute;margin-top: 60px;}
+.category-card a{position: absolute;bottom: 20px;right: 20px; background-color: #6630d8;color: white;border-radius: 2px;
+    padding: 5px 20px;box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2); text-decoration: none;}
+.category-card a:hover{text-decoration: none;color: lightgray;}
+
+.main-components{position: relative;height: 100vh;}
+.two-main-divs{height: 90vh;display: flex;justify-content: space-between;}
+.cv-box{width: 60%;height: 90vh;margin-left: 20px;margin-top: 20px;box-shadow: 0 6px 0 #fff, 0 1px 6px rgba(0,0,0, .35);
+    background-color: white;position: relative;}
+.editing-box{width: 30%;height: 90vh;box-shadow: 0 6px 0 #fff, 0 1px 6px rgba(0,0,0, .35);
+    margin-right: 100px;margin-top: 20px;border: none;}
+.editing-box{color: gray;font-weight: bold;width: 30%; padding: 30px; background-color: white;font-size: 14px;}
+.footer-position{position: absolute;bottom: 0;width: 100%;}
+
+
+.edit-button{position:absolute;right: 10px;top: 20px;color:#f3f3f3;background-color: #6630d8;font-size: 10px;
+font-weight: bold;padding: 10px 20px;box-shadow:0px 0px 10px 0px rgba(0,0,0,0.2);border: none;border-radius: 3px;}
+.download-button{position: absolute; bottom: 0; right: 10px;color: #f3f3f3; background-color: #6630d8;font-size: 10px;
+    font-weight: bold; font-size: 12px;padding: 5px 20px;box-shadow:0px 0px 10px 0px rgba(0,0,0,0.2);border: none; border-radius: 3px;}
+
+.my-tab-list{list-style: none; width: 80%;margin-top: 10px; display: flex;}
+.react-tabs__tab{ color: #6630d8;background-color: #f3f3f3;font-weight: bold;padding: 10px 20px;
+    margin: 10px; border-radius: 2px; box-shadow:0px 0px 10px 0px rgba(0,0,0,0.2); width: 30% ; font-size: 10px;}
+.react-tabs__tab:hover{cursor: pointer;}
+.react-tabs__tab--selected{background-color: #6630d8; color: white;}
+/* .tabs-li:hover{cursor: pointer;} */
+
+/* .carusel-div{height: 80vh;}
+.carusel-main{width: 100%; height: 100%;}
+.carousel-inner{height: 90%;}
+.carousel-item{height: 100%; position: relative;}
+.carousel-item img{height: 100%;}
+
+.LinkedInHeader{height: 63%; width: 100%; position: absolute; top: 0;}
+.LinledInAbout{position: absolute; bottom: 0; width: 100%; height: 35%;}
+
+.LinkedInArtikels{position: absolute;width: 100%; height: 100%;top: 0;}
+.LinkedInWorkexpirience{position: absolute;top: 0;width: 100%; height: 50%;}
+.LinkedInEducation{position: absolute;width: 100%; height: 50%;bottom: 0;}
+
+.LaikaHeader, .LaikaEducation, .LaikaAbout, .LaikaArtikels{position: absolute;top: 0;width: 100%;height: 100%;}
+.LaikaWorkexpirience{position: absolute;bottom: 0;width: 100%;height: 45%;} */
+

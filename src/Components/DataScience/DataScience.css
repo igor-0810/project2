@@ -1,0 +1,181 @@
+.main-div-DataScience{width: 80%; margin-left: 50px; height: 80vh; overflow-y: auto; }
+.main-box-DataScience{display: flex;justify-content: flex-start;margin: 15px;}
+
+.DM-slika{position: relative;}
+.DM-slika img{width: 100%;}
+
+.main-div-DataScience .second-row{margin-left: 0 !important;margin-right: 0 !important;}
+
+.data-science-img .div-img{width: 120px;height: 120px; margin-right: 15px;position: relative;background-color: #f3f3f3;border-radius: 50%;}
+.data-science-img img{width: 100%; height: 100%;border-radius: 50%;}
+
+.inner-box-dataScience{width: 70%; position: relative; padding-top: 10px;}
+.inner-box-dataScience h3, .inner-box-dataScience p, .inner-box-dataScience h6{margin: 0; color: #354457;cursor: pointer;}
+.inner-box-dataScience label{margin-bottom: 0;}
+.inner-box-dataScience h3{font-size: 30px;}
+.inner-box-dataScience h6{font-size: 13px; word-break: break-all;}
+.inner-box-dataScience p{color: rgb(136, 131, 131);}
+.inner-box-dataScience .popup{width: 50px;height: 50px;}
+
+.dataScience-row-line{border-bottom: 1px solid #354457; border-top: 1px solid #374455;display: flex;justify-content: center;padding: 5px;align-items: center;}
+.dataScience-row-line i{margin-right: 5px;}
+.dataScience-row-line label{font-size: 11px; cursor: pointer;}
+/* .dataScience-row-line span{margin-right: 20px;} */
+
+.dataScience-row-line label{margin-bottom: 0; margin-right: 20px; font-weight: normal;}
+.dataScience-row-line input{border: none;border-bottom: 1px solid #354457; outline: none;width: 35%; margin-right: 10px;}
+
+.left-info-DS{padding: 0;}
+.onAdd-DS .workEduadd{margin-left: 0; cursor: pointer;}
+.onAdd-DS .workEduadd h4{color: #354457;}
+.onAdd-DS .workEduadd button{background-color: #374455;}
+/* .left-info-DS .workEduadd h5:hover button{display: block;} */
+
+.left-info-DS .color-side-box{display: none;}
+.left-info-DS .left-inner-boxes .inner-box-content{margin-left: 0;}
+.left-info-DS span{font-size: 10px; font-style: italic; color: gray;}
+.left-info-DS .left-inner-boxes .inner-box-content .span-divs{margin-left: 0;}
+/* .span-divs-DS{position: relative; margin-top: 3px;width: 100%;height: 20px;} */
+.left-up-spans-ds{position: absolute; top: 0;}
+.left-down-spans-ds{position: absolute;top:10px}
+.right-spans-ds{position:absolute;top: 0;right: 0;}
+.left-info-DS .form-work .present-Label{color: #374455;font-style: italic;}
+
+.left-info-DS .form-work input::placeholder{color: grey;font-style: italic;}
+.left-info-DS .form-work textarea::placeholder{color: gray;font-style: italic;}
+
+/* .left-info-DS h4{font-size: 10px; font-weight: bolder; margin: 0; margin-bottom: 0;margin-top: 20px; color: #354457;} */
+.left-info-DS p{ margin: 0;font-size: 12px;}
+.left-info-DS h5{font-size: 12px;font-weight: normal;}
+.left-info-DS ul, .inner-box-content-DS{padding: 0;}
+.left-info-DS .form-ul .form-desc-li{list-style: none; font-size: 12px; position: relative; margin-left: 25px;}
+.left-info-DS .form-ul > .form-desc-li:before {
+    content: "–"; 
+    position: absolute;
+    top: -5px;
+    left: -15px;
+  }
+
+.left-info-DS .left-info-ul{padding: 0; margin-top: 5px;}
+.left-info-DS .left-info-ul li{list-style: none; font-size: 12px; position: relative; line-height: 15px;}
+.left-info-DS .left-info-ul > li:before{
+  content: "–"; 
+  position: absolute;
+  top: 0;
+  color: #374455;
+  left: -20px;
+}
+.left-info-DS .left-inner-boxes .inner-box-content .trash-form{color: #374455;}
+.left-info-DS .left-inner-boxes .inner-box-content .editIcon{color: #374455;}
+
+/* .inner-box-content-DS ul li{font-size: 8px;}
+.inner-box-content-DS ul li{list-style: none;position: relative;margin-left: 10px;}
+.inner-box-content-DS ul > li:before{
+  content: "–"; 
+  position: absolute;
+  top: 0;
+  left: -10px;
+} */
+
+
+.right-info-DS h4{font-size: 15px;font-weight: bold;color: #354457; margin-top: 40px; cursor: pointer;}
+.right-info-boxes-DS p{font-size: 13px; margin: 0;}
+.right-info-DS label{margin: 0;}
+.skils-category{display: flex;justify-content: space-between;position: relative; align-items: center;}
+.skils-category span{font-size: 13px; margin: 0;}
+.skils-bullets{width: 15px;height: 15px; background-color: #354457;float: right;margin: 5px;border-radius: 50%;}
+.right-info-boxes-DS span{font-size: 8px;}
+.input-skils-ds{border: none;border-bottom: 1px solid #354457; outline: none;}
+.bordered-span{padding: 5px; border: 1px solid black; border-radius: 2px; margin-bottom: 5px;display: inline-block; font-size: 12px !important;}
+
+.achievements-box-ds:hover .trash-achievements-ds{display: block;}
+.achievements-box-ds .trash-achievements-ds{font-size: 13px;}
+.achievements-box-ds p{word-break: break-all;}
+
+.informal-box:hover .trash-informal-ds{display: block;}
+.informal-box{position: relative;}
+.trash-informal-ds{font-size: 13px; position: absolute; right: 0;top: 5px;}
+
+.form-textarea-ds{border: none; border-bottom: 1px solid #354457;width: 100%;outline: none;}
+
+.title-inputs::placeholder{color: lightgray;}
+.title-inputs{border: none; border-bottom: 1px solid #374455; outline: none;margin-left: 10px}
+.title-inputs-placeholder{color:green}
+.title-textarea{border: none; border-bottom: 1px solid #374455; outline: none; width: 50%;}
+
+.inner-box-content-DS:hover .trash-form{display: block;}
+
+.right-info-DS .onAdd-DS h4{text-transform: uppercase;color: #374455;font-size: 15px;}
+.right-info-DS .onAdd-DS:hover  button{display: block;}
+.right-info-DS .onAdd-DS button{color: white; background-color: #374455;border: none;border-radius: 3px;padding: 5px; font-size: 10px;margin-bottom: 5px;margin-top: 5px;}
+
+.skils-category:hover .trash-box{display: block;}
+
+.skils-bullets-borderd{width: 15px;height: 15px; border: 1px solid #374455;float: right;margin: 5px;border-radius: 50%;}
+
+.left-info-DS.form-work{height: 10%;}
+.left-info-DS .form-title{border:none; border-bottom: 1px solid #374455; width: 100%;margin-bottom: 3px;}
+.left-info-DS .form-year{border: none; border-bottom: 1px dashed #374455;width: 100%;margin-bottom: 3px; width: 60px; margin-right: 10px;}
+.left-info-DS .form-city{border: none; border-bottom: 1px dashed #374455; width: 40%;float: left;margin-bottom: 3px}
+.left-info-DS .form-achievement{border: none;border-bottom: 1px dashed #374455;width: 40%;float: right;margin-bottom: 3px}
+.left-info-DS .form-web-submit{background-color: #374455; color: white; padding: 5px 10px;border: none;
+  font-size: 10px; margin-bottom: 10px; border-radius: 2px;}
+.left-info-DS .form-title, .left-info-DS .form-year, .left-info-DS .span-input-info, .left-info-DS .form-city, 
+.left-info-DS .form-achievement, .left-info-DS .input-skils, .left-info-DS .form-textarea:focus{outline: none;}
+.left-info-DS .form-textarea{border:none; border-bottom: 1px solid #374455; width: 100%;}
+.left-info-DS .form-desc-li{list-style: none; word-wrap: break-word;width: 100%;font-size: 10px;}
+.left-info-DS .form-desc-li::before{
+  color:#374455; /* set color to red */
+  content:"\2022"; /* /2022 is the numerical unicode for &bull; */
+  font-size:1.5em; /* set the font-size of the bullet if necessary. Make sure to use em or %*/
+  padding-right:.25em; /* give the bullet some padding from the text Make sure to use em*/
+  position:relative;
+    top:.1em;
+}
+
+.left-info-DS .present-Label{font-weight: normal;margin-left: 20px;}
+.left-info-DS .inpCheck[type="checkbox"]{
+    position: relative;  
+  -webkit-appearance: none;
+  outline: none;
+}
+.left-info-DS .inpCheck[type="checkbox"]:before{
+  content: "";
+  position: absolute;
+  display: inline-block;
+  border: 1px solid #374455;
+  border-radius: 50%;
+  height: 15px;
+  width: 15px;
+  box-sizing: border-box;
+  top: -12px;
+  margin-left: 10px;
+}
+.left-info-DS .inpCheck[type="checkbox"]:after{
+  content: "";
+  position: absolute;
+  display: inline-block;
+  border-radius: 50%;
+  height: 7px;
+  width: 7px;
+  box-sizing: border-box;
+  top: -8px;
+  right: -21px;
+  margin-left: 10px;
+}
+.left-info-DS .inpCheck:checked[type="checkbox"]:after{
+  background-color: #374455;
+  
+}
+
+/* slika hover  */
+.DS-slika{position: relative;}
+.title-photo-hover-DS{position: absolute; width: 19%; height: 24%;top: 0;}
+.title-bg-hover-DS{position: absolute; width: 70%; height: 24%;top: 0;left: 20%;}
+.title-contact-hover-DS{position: absolute; width: 100%; height: 5%;top: 25%;}
+.WoEx-hover-div-DS{position: absolute; width: 50%; height: 75%;top: 31%;}
+.skils-hover-div-DS{position: absolute; width: 50%; height: 35%;top: 31%;right: 0;}
+.edu-hover-div-DS{position: absolute; width: 50%; height: 30%;top: 108%;}
+.pro-pub-DS{position: absolute; width: 50%; height:15%;top: 66%;right: 0;}
+.Lang-hover-DS{position: absolute; width: 50%; height: 15%;top: 81%;right: 0;}
+.inf-edu-DS{position: absolute; width: 50%; height: 20%;top: 96%;right: 0;}
