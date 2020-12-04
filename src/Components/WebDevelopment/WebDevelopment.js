@@ -78,7 +78,7 @@ class WebDevelopment extends React.Component {
        
         return (
             <div>
-                        <button className="edit-button" onClick={() => this.onEditing()}>EDIT</button>
+                <button className="edit-button" onClick={() => this.onEditing()}>EDIT</button>
                         
 
 

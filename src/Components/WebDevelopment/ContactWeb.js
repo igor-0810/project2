@@ -59,6 +59,7 @@ class ContactWeb extends React.Component {
                     </div>
                     <div className="contact-icons-div">
                         <i className="fa fa-mobile" aria-hidden="true" style={{ fontSize: "20px"}}></i>
+                
                     </div>
                     {!this.state.inputPhone ? null
                     :
