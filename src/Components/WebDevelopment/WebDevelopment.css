@@ -6,6 +6,7 @@
 .left-main-box h6{font-size: 13px; margin: 0; margin-top: 15px; word-break: break-all;}
 .left-main-box{margin-bottom: 5px;}
 .inner-box-content1{margin-left: 20px;}
+label:hover{cursor: pointer;}
 
 .maindiv-slika img{width: 100%; }
 .elon-img .div-img{width: 100px; height: 100px; border-radius: 50%; border: 1px solid #2dbbad;background-color: #f3f3f3; 

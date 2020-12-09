@@ -22,7 +22,7 @@ const TheUltimateCV = () => {
                         <img src={firstPagePic} className="img-rigthtBox" alt="" />
                     </div>
                 </div>
-                {/* <FooterMain /> */}
+                <FooterMain />
 
             </div>
         </div>
